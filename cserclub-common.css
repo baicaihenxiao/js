@@ -1,3 +1,9 @@
+/* 仅在docsify中使用，id是#main，不知道会不会影响其他如jekyll minima */
+/* 修改docsify文章两边的宽度，否则手机看起来太窄了 */
+article.markdown-section {
+    max-width: 92%;
+}
+
 /* [hover to see](#spoiler "Spoiler Filled Text") */
 .spoiler {
   text-decoration: none !important;
