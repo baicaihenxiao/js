@@ -148,7 +148,7 @@ p.no:before {
 
 /* 折叠 */
 details > summary {
-  background-color: #FFF8DC;
+  background-color: #E9F1F6;
   color: black;
   cursor: pointer;
   padding: 8px;
@@ -157,11 +157,11 @@ details > summary {
   text-align: left;
   outline: none;
   font-size: 15px;
-  border-left: 6px solid gold;
+  border-left: 6px solid #BBCDC5;
 }
 
 details > summary:hover {
-  background-color: #98EA70;
+  background-color: #BBCDC5;
 }
 
 details {
@@ -169,5 +169,14 @@ details {
   padding-left: 20px;
   /*max-height: 0;*/
   overflow: hidden;
-  border-left: 2px solid gold;
+  border-left: 2px solid #BBCDC5;
+}
+
+/*docsify需要用这个*/
+.markdown-section blockquote {
+    border-left: 4px solid #665757;
+}
+
+blockquote {
+    border-left: 4px solid #665757;
 }
