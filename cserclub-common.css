@@ -26,14 +26,16 @@ article.markdown-section {
 
 
 /*各种icon*/
+
 .check {
   color: black;
-  background-color: #C0C0C0;
+  background-color: #F5F5F5;
   font-size: 100%;
   font-style: bold;
-  padding-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-indent: -30px;
+  padding-left: 39px;
 
 }
 .check:hover {
@@ -42,9 +44,9 @@ article.markdown-section {
 }
 .check:before {
   content: "✔️";
-  background-color: white;
+  background-color: #F5F5F5;
   font-size: 120%;
-  margin-right: 10px;
+
 }
 
 
@@ -72,9 +74,13 @@ article.markdown-section {
 
 p.tips {
   border-left: 5px solid yellowgreen;
+  background-color: #F5F5F5;
+
 }
 p.tips:before {
   content: "💡";
+  background-color: #F5F5F5;
+
 }
 
 p.notice {
@@ -94,9 +100,19 @@ p.question:before {
   font-size: 140%;
 }
 
+p.no {
+  border-left: 5px solid #DC3023;
+  background-color: #F5F5F5;
+
+}
+p.no:before {
+  content: "🚫";
+  background-color: #F5F5F5;
+}
+
 p.todo {
-  border-left: 5px solid gray;
-  background-color: #ffeb8e;
+  border-left: 5px solid #FFA400;
+  background-color: #F5F5F5;
   text-indent: -103px;
   padding-left: 100px;
 
@@ -106,17 +122,17 @@ p.todo:before {
   /*font-weight: bold;*/
   font-size: 120%;
   /*font-style: italic;*/
-  background-color: #ffeb8e;
+  background-color: #F5F5F5;
 }
 
 p.label {
-  border-left: 5px solid gray;
-  background-color: lavender;
+  border-left: 5px solid #E4C6D0;
+  background-color: #FCEFE8;
 
 }
 p.label:before {
   content: "🏷️";
-  background-color: lavender;
+  background-color: #FCEFE8;
 }
 
 
@@ -130,29 +146,11 @@ p.star:before {
   background-color: #CCE8C1;
 }
 
-p.warning {
-  border-left: 5px solid gray;
-  background-color: mistyrose;
-}
-p.warning:before {
-  content: "❗";
-  background-color: mistyrose;
-}
-
-p.no {
-  border-left: 5px solid gray;
-  background-color: lightcoral;
-
-}
-p.no:before {
-  content: "🚫";
-  background-color: lightcoral;
-}
 
 
 /* 折叠 */
 details > summary {
-  background-color: #E9F1F6;
+  background-color: #F5F5F5;
   color: black;
   cursor: pointer;
   padding: 8px;
