@@ -57,6 +57,7 @@ article.markdown-section {
   padding-bottom: 20px;
   text-indent: -60px;
   padding-left: 63px;
+  padding-right: 5px;
 }
 .icon:hover {
   text-decoration: none;
@@ -69,10 +70,10 @@ article.markdown-section {
   font-size: 165%;
 }
 
-.tips {
+p.tips {
   border-left: 5px solid yellowgreen;
 }
-.tips:before {
+p.tips:before {
   content: "💡";
 }
 
@@ -96,6 +97,9 @@ p.question:before {
 p.todo {
   border-left: 5px solid gray;
   background-color: #ffeb8e;
+  text-indent: -103px;
+  padding-left: 100px;
+
 }
 p.todo:before {
   content: "☐ TODO: ";
