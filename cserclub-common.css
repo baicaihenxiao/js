@@ -184,7 +184,8 @@ blockquote {
 }
 
 /* tag */
-.tag {
+/* https://codepen.io/wbeeftink/pen/dIaDH */
+.cser-tag {
   font-weight: bold;
   background: #F5F5F5;
   border-radius: 3px 0 0 3px;
@@ -199,7 +200,7 @@ blockquote {
   -webkit-transition: color 0.2s;
 }
 
-.tag::before {
+.cser-tag::before {
   background: #7bcfa6;
   border-radius: 10px;
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
@@ -211,7 +212,7 @@ blockquote {
   top: 10px;
 }
 
-.tag::after {
+.cser-tag::after {
   background: #fff;
   border-bottom: 13px solid transparent;
   border-left: 10px solid #eee;
@@ -222,11 +223,11 @@ blockquote {
   top: 0;
 }
 
-.tag:hover {
+.cser-tag:hover {
   background-color: #7bcfa6;
   color: white;
 }
 
-.tag:hover::after {
+.cser-tag:hover::after {
   border-left-color: #7bcfa6;
 }
