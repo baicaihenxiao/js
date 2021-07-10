@@ -174,15 +174,6 @@ details {
   border-left: 2px solid #BBCDC5;
 }
 
-/*docsify需要用这个*/
-.markdown-section blockquote {
-    border-left: 4px solid #665757;
-}
-
-blockquote {
-    border-left: 4px solid #665757;
-}
-
 /* tag */
 /* https://codepen.io/wbeeftink/pen/dIaDH */
 .cser-tag {
